@@ -79,3 +79,34 @@
 }
 
 /* Random Information */
+.main-content-container{
+    padding: 1.8rem 15rem;
+    height: 50vh;
+    text-align: center;
+}
+
+.main-content-container .title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.main-content-container .info-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+.card{
+    width: 150px;
+}
+
+.main-content-container .card .box{
+    border: 3px solid #3882F6;
+    height: 120px;
+    width: 100%;
+    border-radius: .8rem;
+    margin-bottom: 10px;
+}
