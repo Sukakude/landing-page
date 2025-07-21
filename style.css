@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-header-container{
+    padding: 1.8rem 15rem;
+    background-color: #1F2937;
+    height: 50vh;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4.4rem;
+    
+}
+
+.header-container .header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-container .header-nav ul{
+    display: flex;
+    gap: 1.4rem;
+    list-style-type: none;
+}
+
+.header-container .header-nav ul li a{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Hero content */
+.hero-container{
+    min-height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+.hero-container .hero-image{
+    width: 50%;
+    text-align: right;
+}
+
+.hero-container .hero-image img{
+    width: 250px;
+    height: 200px;
+    margin-right: 15rem;
+}
+
+.hero-container .hero-content h3{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-container .hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.hero-container .hero-content .btn{
+    display: inline-block;
+    background-color: #3882F6;
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: .5rem 1.2rem;
+    color: #E5E7EB;
+}
+
+/* Random Information */
