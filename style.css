@@ -79,7 +79,7 @@
 }
 
 /* Random Information */
-.main-content-container{
+.main-content-container, .quote-section{
     padding: 1.8rem 15rem;
     height: 50vh;
     text-align: center;
@@ -109,4 +109,31 @@
     width: 100%;
     border-radius: .8rem;
     margin-bottom: 10px;
+}
+
+/* Quote */
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.quote-section .quote{
+    width: 55%;
+    color: #1F2937;
+}
+
+.quote-section .quote p{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+}
+
+.quote-section .quote-author{
+    font-weight: 900;
+    text-align: right;
 }
