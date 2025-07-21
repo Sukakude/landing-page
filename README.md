@@ -1,1 +1,1 @@
-# landing-page
+In this project we will be creating an entire web page using HTML and css.
