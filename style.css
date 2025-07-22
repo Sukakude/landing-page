@@ -124,7 +124,8 @@
     align-items: center;
     flex-wrap: wrap;
     height: 55vh;
-    
+    margin-top: 5.6rem;
+    padding: 15px 25px;
 }
 
 .quote-section .quote{
