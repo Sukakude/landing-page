@@ -6,7 +6,7 @@
 }
 
 .main-header-container{
-    padding: 1.8rem 15rem;
+    padding: 1.8rem 5rem;
     background-color: #1F2937;
     height: 75vh;
 }
@@ -15,17 +15,19 @@
 .header-container{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     margin-bottom: 4.4rem;
-    
 }
 
 .header-container .header-logo{
+    flex: 1;
     color: #F9FAF8;
     font-size: 24px;
 }
 
+
+
 .header-container .header-nav ul{
+
     display: flex;
     gap: 1.4rem;
     list-style-type: none;
@@ -39,23 +41,23 @@
 
 /* Hero content */
 .hero-container{
-    min-height: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.1rem .8rem;
+    height: 45vh;
 }
-
-.hero-container .hero-image{
-    width: 80%;
-    display: flex;
+.hero-image{
+    height: 100%; 
+    display: flex; 
+    align-items: center;
     justify-content: flex-end;
+    width: 35%;
 }
 
 .hero-container .hero-image img{
-    width: 100%;
-    max-width: 500px;
-    height: 300px;
+    width: 84%;
+    height: 75%;
+    object-fit: cover;
     border-radius: 0.8rem;
 }
 
